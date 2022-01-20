@@ -35,7 +35,7 @@ nav {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  padding: 0 5em 3em;
+  justify-content:space-evenly;
 
 }
 .desc {
@@ -60,10 +60,12 @@ nav {
 .hero {
     display:flex;
     justify-content: center;
-    width: 50%;
+    width: 49%;
 }
 .hero > img {
-    max-width: 50%;
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 #about{
     margin-top: 1em;
