@@ -35,7 +35,6 @@ nav {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
 
 }
 .desc {
@@ -60,7 +59,7 @@ nav {
 .hero {
     display:flex;
     justify-content: center;
-    width: 49%;
+    width: 50%;
 }
 .hero > img {
     width: 50%;
